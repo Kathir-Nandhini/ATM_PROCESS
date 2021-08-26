@@ -1,5 +1,9 @@
 # Customer Bank Details and ATM Process
 To program an Automated Teller Machine (ATM) to show the Main Menu specified below and perform some Tasks.
+1. Load Cash to ATM
+2. Maintain Customer Details
+3. Handle ATM Operations
+4. Check ATM Balance
 
 ## Initialization of pre-processors:
 ```
