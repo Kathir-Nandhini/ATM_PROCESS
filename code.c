@@ -246,9 +246,7 @@ int Transfer_Money(int p)
 		}
 		else
 		 printf("Invalid Account number\n");
-		
-	  }
-	  
+	}	  
  }
  
 //To check the available balance of ATM 
