@@ -84,7 +84,7 @@ int maintain_customer_details(){
     printf("Acc_No\tAccount_Holder\t Pin_Number\tAccount_Balance\n");
     printf("-----------------------------------------------------\n");
     for(i=0;i<no_of_customers;i++)
-    		printf(" %d\t  %s\t  %d\t\t %d\n",s[i].acc_no,s[i].Name,s[i].pin,s[i].acc_balance);
+	    printf(" %d\t  %s\t  %d\t\t %d\n",s[i].acc_no,s[i].Name,s[i].pin,s[i].acc_balance);
 			printf("---------------------------------------------------\n");     
 }
 
@@ -283,20 +283,19 @@ int main()
 		scanf("%d", &choice);
         switch(choice)
         {
-            case(1):
-            	load_cash();
-            	break;
-		
-			case(2):
+		case(1):
+            		load_cash();
+            		break;
+		case(2):
 	        	maintain_customer_details();
-                break;
-			case(3):
-                handle_atm_operations();
-                break;
-			case(4):
-				check_ATM_balance();
-            	break;
-		}
+                	break;
+		case(3):
+                	handle_atm_operations();
+                	break;
+		case(4):
+			check_ATM_balance();
+            		break;
+	}
     }while(choice!=5);
 
     return 0;
