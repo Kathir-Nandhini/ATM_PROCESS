@@ -70,13 +70,13 @@ Then using the function show_customer_details() which is called in the main func
 the following output will be displayed.
 Enter your choice: 2
 -----------------------------------------------------
-Acc_No  Cus_Name Pin    Acc_Bal
+Acc_No  Account_Holder Pin_Number  Account Balance
 ---------------------------------------------------
- 101     Suresh  2343    25234
- 102     Ganesh  5432    34123
- 103     Magesh  7854    26100
- 104     Naresh  2345    80000
- 105     Harish  1907    103400
+ 101     Suresh         2343        25234
+ 102     Ganesh         5432        34123
+ 103     Magesh         7854        26100
+ 104     Naresh         2345        80000
+ 105     Harish         1907        103400
 ---------------------------------------------------
 ```
 
