@@ -1,13 +1,13 @@
 # Customer Bank Details and ATM Process
 To program an Automated Teller Machine (ATM) to show the Main Menu specified below and perform some Tasks.
 
-## Initialization of pre-processors
+## Initialization of pre-processors:
 ```
 include<stdio.h>
 include<stdlib.h>
 include<string.h>
 ```
-## Main function 
+## Main function:
 ```
 In the main function we are displaying the available options for the Customer and for the ATM depositor.
 If the user is a customer then he will be given his own choice listed below or
@@ -174,7 +174,7 @@ Denomination    Number          Value
 The Available Balance in ATM  10000
 ```
 
-## Conclusion
+## Conclusion:
 ```
 While entering each choice the user can load and see the changes on the screen.
 This will be usefull to make the transaction wise and clear.
