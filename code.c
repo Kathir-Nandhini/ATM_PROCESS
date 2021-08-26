@@ -77,6 +77,7 @@ int customer_details_entry(){
     s[4].acc_balance = 103400;
 }
 
+
 //To maintain all the customer details
 int maintain_customer_details(){
     int i;
